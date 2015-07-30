@@ -1,0 +1,23 @@
+{
+  "name": "net.xeophin.utils.events",
+  "version": "1.0.0",
+  "homepage": "https://github.com/xeophin/net.xeophin.utils.events",
+  "authors": [
+    "Kaspar Manz <code@xeophin.net>"
+  ],
+  "description": "Event broadcasting system for Unity3D.",
+  "main": "GameEventBroadcaster.cs",
+  "keywords": [
+    "unity3d",
+    "utility",
+    "events"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
