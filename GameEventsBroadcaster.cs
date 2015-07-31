@@ -86,7 +86,8 @@ namespace Net.Xeophin.Utils
       OnGameStateChanged (sender, e);
 
       // Call more specific events
-      var handler = gameStateEvents [e.NewState];
+      EventHandler<GameStateEventArgs> handler;
+      gameStateEvents.TryGetValue(e.NewState, handler);
       if (handler != null)
         handler (sender, e);
 
